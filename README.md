@@ -1,7 +1,7 @@
 # emoncms_mqtt-windows
 Emoncms using package phpmqtt_input.php configuration
 
-##1. instalamos todos los componentes necesarios siguiendo la instalación emoncms:
+###1. instalamos todos los componentes necesarios siguiendo la instalación emoncms:
 https://github.com/emoncms/emoncms/blob/master/readme.md
 
 En nuestro servidor apache(www o httdocs) en vez de utilizar el descrgable de emoncms nos bajamos el que he configurado:
