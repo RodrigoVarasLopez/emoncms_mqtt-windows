@@ -10,7 +10,7 @@ https://github.com/RodrigoVarasLopez/emoncms_mqtt-windows/blob/master/produccion
 
 **WARNING: ESTA PARTE YA ESTA ECHA DENTRO DE MI FICHERO DESCARGABLE, SOLAMENTE ES INFORMATIVA!!:**
 
-#Los cambios realizados dentro de la carpeta **emoncms/settings.php** son los sigueintes muy parecedios a los de la guia salvo MQTT:
+Los cambios realizados dentro de la carpeta **emoncms/settings.php** son los sigueintes muy parecedios a los de la guia salvo MQTT:
 
 **emoncms/settings.php**
 ```
@@ -50,7 +50,7 @@ https://github.com/RodrigoVarasLopez/emoncms_mqtt-windows/blob/master/produccion
 $log_filename = "C:\\Users\\RODRIGO\\emoncmsdata\\emoncms.log";
 ```
 
-#Cambios en **emoncms/scripts/phpmqttsettings.php**:
+Cambios en **emoncms/scripts/phpmqttsettings.php**:
 
 **emoncms/scripts/phpmqttsettings.php**
 ```
