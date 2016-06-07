@@ -68,13 +68,13 @@ linea 43: $fp = fopen("C:\Users\RODRIGO\\emoncmsdata\phpmqtt_input.lock", "w");
 
 **END WARING**
 
-# 2. Instalar y Ejecutar mosquitto también en el lado de emoncms
+### 2. Instalar y Ejecutar mosquitto también en el lado de emoncms
 **http://mosquitto.org/download/**
 
-# 3.Ejecutamos el script **emoncms/scripts/phpmqttsettings.php** que va a hacer de subscriptor 
+### 3.Ejecutamos el script **emoncms/scripts/phpmqttsettings.php** que va a hacer de subscriptor 
 php phpmqttsettings.php
 
-# 4. Nos conectamos con mosquitto_pub 
+### 4. Nos conectamos con mosquitto_pub 
 mosquitto_pub -t "nodes/emontx/power" -m "10" 
 
 * nodes es el basetopic
